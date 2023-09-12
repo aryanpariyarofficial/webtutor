@@ -29,7 +29,7 @@ import { loadUser } from '../../redux/actions/user';
   loading,
 }) => {
   return (
-    <VStack className="course dropshado" alignItems={['center', 'flex-start']}>
+    <VStack className="course" alignItems={['center', 'flex-start']}>
       <Image src={imageSrc} boxSize="60" objectFit={'contain'} />
       <Heading
         textAlign={['center', 'left']}
